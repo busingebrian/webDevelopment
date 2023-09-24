@@ -7,7 +7,7 @@ html {
 
 .header {
   min-height: 75%;
-  background: url("https://images.unsplash.com/photo-1588771930296-88c2cb03f386?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=836&q=80") no-repeat center center fixed;
+  background: url("../images/barber.png") no-repeat center center fixed;
   background-color: rgba(0, 0, 0, 0.80);
   background-blend-mode: multiply;
   background-size: cover;
@@ -21,7 +21,7 @@ h4 {
 /* Shop Information section */
 .section-break {
   min-height: 100%;
-  background: url("https://images.unsplash.com/photo-1621605810052-80936545a850?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=767&q=80") no-repeat center center fixed;
+  background: url("../images/machines.png") no-repeat center center fixed;
   filter: grayscale(50%);
   background-blend-mode: multiply;
   background-size: cover;

@@ -59,8 +59,8 @@ document.addEventListener("click", (e) => {
 // toggle password visibility
 const togglePassword = document.querySelector("#togglePassword");
 const togglePassword2 = document.querySelector("#togglePassword2");
-const eye1 = document.querySelector("#eye1")
-const eye2 = document.querySelector("#eye2")
+const eye1 = document.querySelector("#eye1");
+const eye2 = document.querySelector("#eye2");
 
 // toggle the type attribute 1st pasword
 eye1.addEventListener("click", function (e) {

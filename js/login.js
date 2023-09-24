@@ -1,5 +1,3 @@
-const { click } = require("wd/lib/commands");
-
 
 let usernameRef = document.getElementById("username");
 let passwordRef = document.getElementById("password");
@@ -48,7 +46,7 @@ document.addEventListener("click", (e) => {
 
 // toggle password visibility
 const togglePassword = document.querySelector("#togglePassword");
-const eye = document.querySelector("#eye")
+const eye = document.querySelector("#eye");
 
 
 // toggle the type attribute 
@@ -56,5 +54,5 @@ eye.addEventListener("click", function (e) {
     const type = passwordRef.getAttribute("type") === "password" ? "text": "password";
     passwordRef.setAttribute("type", type);
     // toggle the icon
-this.classList.toggle("fa-eye-slash")
+this.classList.toggle("fa-eye-slash");
 });
