@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="galleryStyles.css">
+</head>
+<body>
+
+<div class="gallery">
+  <div class="gallery-item" onclick="openLightbox('image1.jpg', 'Image 1')">
+    <img src="./images/kid.jpg" alt="Image 1">
+  </div>
+  <div class="gallery-item" onclick="openLightbox('image2.jpg', 'Image 2')">
+    <img src="./images/barber.jpeg" alt="Image 2">
+  </div>
+  <div class="gallery-item" onclick="openLightbox('image3.jpg', 'Image 3')">
+    <img src="./images/elisa.jpeg" alt="Image 3">
+  </div>
+  <div class="gallery-item" onclick="openLightbox('image3.jpg', 'Image 4')">
+    <img src="./images/machines.jpeg" alt="Image 4">
+  </div>
+  <div class="gallery-item" onclick="openLightbox('image3.jpg', 'Image 5')">
+    <img src="./images/salo.jpeg" alt="Image 5">
+  </div>
+  <div class="gallery-item" onclick="openLightbox('image3.jpg', 'Image 6')">
+    <img src="./images/3d_glass_nosh.jpg" alt="Image 6">
+  </div>
+  <!-- Add more images here -->
+</div>
+
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-image" src="" alt="">
+  <div id="caption" class="caption"></div>
+  <a class="prev" onclick="navigate(-1)">&#10094;</a>
+  <a class="next" onclick="navigate(1)">&#10095;</a>
+</div>
+
+<script src="./js/galleryScript.js"></script>
+
+<div class="gallery-back-home" >
+    <a href="index.html">Home</a>
+  </div>
+</body>
+</html>

@@ -70,10 +70,29 @@ eye1.addEventListener("click", function (e) {
 this.classList.toggle("fa-eye-slash")
 });
 
-// toggle the type attribute 1st pasword
+// toggle the type attribute 2nd pasword
 eye2.addEventListener("click", function (e) {
     const type = passwordRefReEnter.getAttribute("type") === "password" ? "text": "password";
     passwordRefReEnter.setAttribute("type", type);
     // toggle the icon
 this.classList.toggle("fa-eye-slash")
 });
+
+//validation event
+
+function validateForm(){
+  // var username = document.register.username.value;
+  // var password = document.register.password.value;
+  // var rePassword = document.register.password.value;
+
+  if(usernameRef == null || usernameRef == ""){
+    alert("Username can't be blank");
+    return false;
+  } else if(passwordRef.length < 5){
+    alert("Password must be at least 5 characters long");
+    return false;
+  }else if(passwordRefReEnter != passwordRef){
+    alert("passwords must be same");
+    return false;
+  }
+}

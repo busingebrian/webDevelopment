@@ -7,7 +7,12 @@
   }
 
   body {
-    background-color: #69666f;
+    /* background-color: #69666f; */
+    background: url(../images/kid.png);
+    background-position: center;
+    top: 60px;
+    background-repeat: no-repeat;
+    background-size: 200%;
   }
   .container {
     height: 31.25em;

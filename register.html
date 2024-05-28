@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="icon" href="./images/icon.png">
+    <title>Registration</title>
+    <link rel="icon" href="./images/SALON_BNB_LOGO-02.jpg">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap'>
     <link rel="stylesheet" href="./css/register.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
@@ -12,25 +12,22 @@
 </head>
 <body>
     <div class="container">
-        <div class="icons">
-            <i class="fas fa-moon"></i>
-            <i class="fas fa-sun"></i>
-          </div>
-        <form action="index.html">
+    
+        <form name = "register" method="post" action="index.html">
             
                 <label for="username">Enter your username</label>
-            <input type="text" id="username" placeholder="username">
+            <input type="text" name="username" id="username" placeholder="username">
             
             <label for="password">Enter your password</label>
             
             <div class="form-container">
                 <i class="far fa-eye" id="eye1" ></i>
-            <input type="password" id="password" name = "password " placeholder="password">
+            <input type="password" id="password" name = "password" placeholder="password">
             </div>
             <label for="password">Re-Enter your password</label>
             <div class="form-container">
             <i class="far fa-eye" id="eye2"></i>
-            <input type="password" id="re-enter" placeholder="password" >
+            <input type="password" name="password" id="re-enter" placeholder="password">
         </div>
             <br>
             <button type="submit">Register</button>
